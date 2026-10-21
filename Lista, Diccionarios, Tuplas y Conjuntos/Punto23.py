@@ -4,14 +4,14 @@
 #● Cursos que aún tienen cupos.
 #● Cantidad total de inscriptos.
 
-# Datos de ejemplo. El DNI se guarda como texto porque no se usa para hacer cuentas.
+
 alumnos = [
     {"nombre": "Ana Gómez", "dni": "40111222"},
     {"nombre": "Luis Pérez", "dni": "41222333"},
     {"nombre": "Sol Díaz", "dni": "42333444"},
 ]
 
-# "inscriptos" es una lista con los DNI de los alumnos anotados en ese curso
+
 cursos = [
     {"nombre": "Python", "cupo": 2, "inscriptos": []},
     {"nombre": "Bases de Datos", "cupo": 3, "inscriptos": []},

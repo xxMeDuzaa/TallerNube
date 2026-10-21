@@ -4,9 +4,11 @@
 #● Prestar un libro (cambiar su estado).
 #● Mostrar todos los libros disponibles.
 
-from datetime import date  # date sirve para trabajar con fechas; acá se usa para saber el año actual
+from datetime import (
+    date,  # date sirve para trabajar con fechas; acá se usa para saber el año actual
+)
 
-ANIO_ACTUAL = date.today().year  # date.today() devuelve la fecha de hoy y .year se queda con el año
+ANIO_ACTUAL = date.today().year 
 
 # Cada libro es un diccionario. Se cargan algunos de ejemplo para poder probar el programa.
 libros = [
